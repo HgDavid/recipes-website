@@ -1,0 +1,42 @@
+body {
+  background-color: #306030;
+  color: #F7FFEB;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+}
+
+.content{
+  padding-left: 6px;
+  flex-grow: 1;
+}
+
+img {
+  width: 282px;
+  height: 188px;
+  object-fit: cover;
+}
+
+a {
+  color: #D9F7C3;
+}
+
+a:visited {
+  color: #9BC974;
+}
+
+a:link:hover {
+  color: #F9B159;
+}
+
+a:visited:hover {
+  color: #F9B159;
+}
+
+footer {
+  background-color: #123612;
+  padding-left: 6px;
+  justify-self: auto;
+}
